@@ -1,0 +1,85 @@
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytd-browse[page-subtype="trending"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+youtube.com##[is-shorts]
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+www.youtube.com##ytd-search ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-browse[page-subtype="channels"] [role="tab"]:nth-of-type(3):has-text(Shorts)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
+www.youtube.com###related ytd-compact-video-renderer [overlay-style="SHORTS"]:upward(ytd-compact-video-renderer)
+m.youtube.com##.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-search ytm-video-with-context-renderer [data-style="SHORTS"]
+
+! 2023-12-04 https://vlogtruyen5.com
+vlogtruyen5.com##div.container-notification.container span
+voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ))
+voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ))
+
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
+
+! 2024-01-25 https://m.facebook.com
+m.facebook.com##._duc._4g34
+m.facebook.com##._du7._7om2 > div._4g34
+
+! 2024-01-30 https://m.facebook.com
+||static.xx.fbcdn.net/rsrc.php/v3/yq/r/Z8IWwViS9gX.png$image
+m.facebook.com##.n.l
+m.facebook.com##.k.j > tbody > tr > td.l
+
+! 2024-02-07 https://vn-z.vn
+vn-z.vn##.__vliadb83-content
+vn-z.vn###__vliadb83-bg
+vn-z.vn###__vliadb83-cls
+
+!ytsearch-motdoiliemkhiet
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
+
+! 2024-03-29 https://testmentor.vn
+testmentor.vn##div
+
+!ytpre-fuckoff
+! YouTube Premium Logo CSS Hack by Arch
+youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
+youtube.com##yt-icon.ytd-logo:style(width: 100% !important; margin-left: -10px !important;)
+youtube.com###logo-icon::after:style(content: "Premium"; font-size: 24px; margin-left: -70px; letter-spacing: -1px;)
+youtube.com###country-code.ytd-topbar-logo-renderer:style(margin-left: 12px !important;)
+youtube.com###country-code
+
+*##*:style(border-radius:unset!important;box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
+
+/^.*?truyenvn.*?$/##a[href*="bet"],a[href*="88"],#banner-ad,#footer,#xmenu,a[href*="?branchseo"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],.modal,.bg-overlay
+
+! Feb 23, 2025 https://mv5.90phutfb.com
+mv5.90phutfb.com##.text-center
+
+! Feb 23, 2025 https://truyenvn.tech
+||truyenvn.tech/wp-content/themes/madara/images/bg-search.jpg$image
+
+! Feb 24, 2025 https://gamek.vn
+gamek.vn###loadboxTinDangDoc
+gamek.vn##.leftdetail
