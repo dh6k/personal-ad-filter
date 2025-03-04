@@ -7,5 +7,5 @@
 `https://raw.githubusercontent.com/lamborghinipth/share/refs/heads/main/userscripts/Adblock/adblock-filter-watchonline.txt`
 * Filter chặn rác trên nimotv (ai cần thì thêm vào)
 `https://raw.githubusercontent.com/lamborghinipth/share/refs/heads/main/userscripts/Adblock/adblock-filter-nimotv.txt`
-Và dòng chặn quảng cáo trên trang truyenvn, ai đọc trên đấy thì thêm vào **My filters**
+* Và dòng chặn quảng cáo trên trang truyenvn, ai đọc trên đấy thì thêm vào **My filters**
 `/^.*?truyenvn.*?$/##a[href*="bet"],a[href*="88"],#banner-ad,#footer,#xmenu,a[href*="?branchseo"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],.modal,.bg-overlay`
