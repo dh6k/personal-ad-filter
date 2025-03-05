@@ -1,6 +1,6 @@
-# Bộ Lọc Chặn Quảng Cáo Cá Nhân
+# Bộ lọc chặn quảng cáo cá nhân - for personal use
 
-Chào mừng bạn đến với **Bộ Lọc Chặn Quảng Cáo Cá Nhân**! Đây là một bộ lọc tùy chỉnh được thiết kế để chặn quảng cáo và nội dung không mong muốn trên các trang web, đặc biệt phù hợp với nhu cầu cá nhân của tôi. Bạn có thể sử dụng, chỉnh sửa hoặc đóng góp để làm cho nó tốt hơn!
+Chào mừng bạn đến với **bộ lọc chặn quảng cáo cá nhân của tôi**! Đây là một bộ lọc tùy chỉnh được thiết kế để chặn quảng cáo và nội dung không mong muốn trên các trang web, đặc biệt phù hợp với nhu cầu cá nhân của tôi. Bạn có thể sử dụng, chỉnh sửa hoặc đóng góp để làm cho nó tốt hơn!
 
 ## Mục Tiêu
 - Loại bỏ quảng cáo phiền nhiễu trên các trang web phổ biến.
