@@ -95,3 +95,6 @@ www.youtube.com###feed-pyv-container2 > .feed-item-dismissable > .feed-item-main
 ! Mar 5, 2025 vorapis v3 banner remove
 www.youtube.com###feed-pyv-container2
 www.youtube.com##.top-row-alignment
+
+! 24 thg 3, 2025 remove chips under video playback
+m.youtube.com##.chips-visible.chips-fixed-positioning
