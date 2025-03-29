@@ -99,4 +99,4 @@ www.youtube.com##.top-row-alignment
 ! 24 thg 3, 2025 remove chips under video playback
 m.youtube.com##.chips-visible.chips-fixed-positioning
 
-m.facebook.com##.div.m.fixed-container.bottom
+m.facebook.com##.bottom.fixed-container.m
