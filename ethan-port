@@ -36,3 +36,6 @@ www.facebook.com###context_header [href^="/pages/boosted_component_v2/view/"]:xp
 www.facebook.com##div[id^=feedback_inline] + div:has-text(This post is performing better than )
 www.facebook.com##div[data-is-pull-to-refresh-allowed=true]>div.m:has(span:has-text(/^Được tài trợ/))
 
+!alpha
+m.facebook.com##.bottom.fixed-container.m
+www.facebook.com##.bottom.fixed-container.m
