@@ -20,8 +20,8 @@ www.facebook.com##div[data-is-pull-to-refresh-allowed=true]>div.m:has(span:has-t
 !vi-vn
 m.facebook.com##article:has(header:has-text(/^Gợi ý cho bạn$/))
 m.facebook.com##article:has(header:has-text(/^Được tài trợ$/))
-m.facebook.com##button:has-text(Boost Post)
-m.facebook.com##button:has-text(Boost Unavailable)
+m.facebook.com##button:has-text(Quảng cáo bài viết ngay)
+m.facebook.com##button:has-text(Tính năng quảng cáo không hoạt động)
 m.facebook.com##div[data-nt='NT:BOX']:has-text(Reach More People With a Boosted Post):xpath(../..)
 m.facebook.com###context_header [href^="/pages/boosted_component_v2/view/"]:xpath(..)
 m.facebook.com##div[id^=feedback_inline] + div:has-text(This post is performing better than )
@@ -29,8 +29,8 @@ m.facebook.com##div[data-is-pull-to-refresh-allowed=true]>div.m:has(span:has-tex
 ! facebook on s25 ultra
 www.facebook.com##article:has(header:has-text(/^Gợi ý cho bạn$/))
 www.facebook.com##article:has(header:has-text(/^Được tài trợ$/))
-www.facebook.com##button:has-text(Boost Post)
-www.facebook.com##button:has-text(Boost Unavailable)
+www.facebook.com##button:has-text(Quảng cáo bài viết ngay)
+www.facebook.com##button:has-text(Tính năng quảng cáo không hoạt động)
 www.facebook.com##div[data-nt='NT:BOX']:has-text(Reach More People With a Boosted Post):xpath(../..)
 www.facebook.com###context_header [href^="/pages/boosted_component_v2/view/"]:xpath(..)
 www.facebook.com##div[id^=feedback_inline] + div:has-text(This post is performing better than )
