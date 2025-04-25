@@ -14,3 +14,51 @@ m.youtube.com##.player-controls-top.with-video-details:style(width: 14% !importa
 m.youtube.com###player-control-overlay.fadein yt-progress-bar:style(visibility: visible !important;)
 m.youtube.com###player-control-overlay.fadein yt-player-storyboard:style(visibility: visible !important;)
 m.youtube.com###player-control-overlay.fadein .YtPlayerStoryboardHost:style(bottom: -80px !important;)
+
+!experimental
+@keyframes addFadeIn {
+from{background-position:1px;}
+to{background-position:2px;}
+}
+@keyframes removeFadeIn {
+from{background-position:1px;}
+to{background-position:2px;}
+}
+#player-control-overlay[class] {
+animation: removeFadeIn 1ms;
+}
+#player-control-overlay[class]:hover
+{
+animation: addFadeIn 1ms;
+}
+h2.slim-video-information-title{
+animation: initUI 1ms;
+
+}
+
+#player-control-overlay[class]{
+pointer-events: all !important;
+}
+
+ytm-cinematic-container-renderer, ytm-cinematic-container-renderer * {
+contain: layout size style;
+user-select: none;
+touch-action: none;
+pointer-events: none;
+}
+
+ytm-custom-control .player-controls-bottom .icon-button:hover>c3-icon svg path,
+ytm-custom-control .player-controls-middle .icon-button:hover>c3-icon svg path,
+ytm-custom-control .player-controls-top .icon-button:hover>c3-icon svg path,
+ytm-custom-control .player-controls-pb .icon-button:hover>c3-icon,
+ytm-custom-control .player-controls-top ytm-closed-captioning-button button[aria-pressed=true]:hover>c3-icon svg path,
+ytm-custom-control .player-controls-top ytm-closed-captioning-button button[aria-pressed=false]:hover>c3-icon svg path ,
+
+ytm-custom-control .player-controls-top ytm-closed-captioning-button button:hover>c3-icon svg path,
+ytm-custom-control .player-controls-middle .icon-button.icon-disable:hover>c3-icon svg path
+{
+
+
+fill: #006aff;
+
+}
