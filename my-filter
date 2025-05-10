@@ -102,5 +102,5 @@ m.youtube.com##.chips-visible.chips-fixed-positioning
 m.facebook.com##.bottom.fixed-container.m
 
 ! Hako cleaner
-/^.*?hako.*?$/##.d-md-block.d-none,.d-lg-block.d-none.index-background,.p-4.bg-yellow-50.border-yellow-400.border-l-4
-/^.*?docln.*?$/##.d-md-block.d-none,.d-lg-block.d-none.index-background,.p-4.bg-yellow-50.border-yellow-400.border-l-4
+/^.*?hako.*?$/##.d-md-block.d-none,.d-lg-block.d-none.index-background,.p-4.bg-yellow-50.border-yellow-400.border-l-4,.d-lg-none.index-background
+/^.*?docln.*?$/##.d-md-block.d-none,.d-lg-block.d-none.index-background,.p-4.bg-yellow-50.border-yellow-400.border-l-4,.d-lg-none.index-background
