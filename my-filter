@@ -111,3 +111,6 @@ www.google.com##.Pa9Ggf[style="display:none"]:style(display: block !important;)
 www.google.com##a[jsname="UWckNb"][data-tli][href^="https://translate.google.com/translate?"]
 www.google.com##a[jsname="UWckNb"][data-tli][style="display:none"]:style(display: block !important;)
 www.google.com##div[jscontroller="Vxh2ib"]
+
+!vnexpress
+vnexpress.net##.wrap-hd-adblock
