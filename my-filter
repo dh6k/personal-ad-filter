@@ -114,3 +114,12 @@ www.google.com##div[jscontroller="Vxh2ib"]
 
 !vnexpress
 vnexpress.net##.wrap-hd-adblock
+
+!https://old.reddit.com (add below to use with header editor)
+!Name: OldReddit
+!Redirect request
+!Regular expression
+!Match: ^https://www.reddit.com/(.*?$)
+!Redirect: https://old.reddit.com/$1
+/^.*?reddit.*?$/###redesign-beta-optin-btn
+
