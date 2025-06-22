@@ -1,0 +1,4 @@
+! oldgoogle with custom gbar
+www.google.com##[href^="/imghp"]
+www.google.com##[href^="/about/products/"]
+www.google.com##td > [href^="/webhp"]
