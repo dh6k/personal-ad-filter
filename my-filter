@@ -125,6 +125,6 @@ vnexpress.net##.wrap-hd-adblock
 
 !rophim
 /^.*?rophim.*?$/##.sspp-area
-goatembed.com##.sspp-area 
+/^.*?goatembed.*?$/##.sspp-area 
 /^.*?rophim.*?$/##div.swiper-slide:has(.sspp-area)
 /v/*/vast.js$script
