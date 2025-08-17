@@ -123,3 +123,8 @@ vnexpress.net##.wrap-hd-adblock
 !Redirect: https://old.reddit.com/$1
 /^.*?reddit.*?$/###redesign-beta-optin-btn
 
+!rophim
+/^.*?rophim.*?$/##.sspp-area
+goatembed.com##.sspp-area 
+/^.*?rophim*?$/##div.swiper-slide:has(.sspp-area)
+/v/*/vast.js$script
