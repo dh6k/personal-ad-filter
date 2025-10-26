@@ -63,12 +63,13 @@ youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-rende
 testmentor.vn##div
 
 !ytpre-fuckoff
-! YouTube Premium Logo CSS Hack by Arch
-!youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
-!youtube.com##yt-icon.ytd-logo:style(width: 100% !important; margin-left: -10px !important;)
-!youtube.com###logo-icon::after:style(content: "Premium"; font-size: 24px; margin-left: -70px; letter-spacing: -1px;)
+! YouTube Vanced Logo CSS Hack by Arch ft. dh6k
+youtube.com##svg[id^="yt-logo"] > g:nth-child(2)
+youtube.com##svg[id^="yt-ringo"] > g:nth-child(2)
+youtube.com##yt-icon.ytd-logo:style(width: 100% !important; margin-left: -10px !important;)
+youtube.com###logo-icon::after:style(content: "Vanced"; font-size: 24px; margin-left: -70px; letter-spacing: -1px;)
 youtube.com###country-code.ytd-topbar-logo-renderer:style(margin-left: 12px !important;)
-youtube.com###country-code
+!youtube.com###country-codeyoutube.com##svg[id^="yt-ringo"]youtube.com##svg[id^="yt-logo"]youtube.com##svg[id^="yt-ringo"]
 
 *##*:style(border-radius:unset!important;box-shadow:unset!important;text-shadow:unset!important;text-transform:unset!important;animation-iteration-count:1!important;scroll-behavior:unset!important;moz-animation-iteration-count:1!important;webkit-animation-iteration-count:1!important;backdrop-filter:unset!important;filter:unset!important;animation-timing-function:step-start!important;transition-timing-function:step-start!important;filter:none!important;text-rendering:none!important;clip-path:unset!important)
 
