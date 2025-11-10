@@ -132,3 +132,6 @@ vnexpress.net##.wrap-hd-adblock
 /^.*?goatembed.*?$/##.sspp-area 
 /^.*?rophim.*?$/##div.swiper-slide:has(.sspp-area)
 /v/*/vast.js$script
+
+!cuutruyen but no money
+/^.*?cuutruyen.*?$/##.html-content
