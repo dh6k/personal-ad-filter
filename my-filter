@@ -136,5 +136,10 @@ vnexpress.net##.wrap-hd-adblock
 !cuutruyen but no money
 /^.*?cuutruyen.*?$/##.html-content
 
+/^.*?rophim.*?$/luottruyen1.com##[id^="__clb-spot_"]
+
 !ko choi tieu ngao giang ho, sorry
 ||data.voz.vn/94bf/1696a809996e4b.webp$image
+
+!luottruyen
+luottruyen1.com##[id^="__clb-spot_"]
