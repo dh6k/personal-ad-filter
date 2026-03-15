@@ -143,3 +143,9 @@ vnexpress.net##.wrap-hd-adblock
 
 !luottruyen
 luottruyen1.com##[id^="__clb-spot_"]
+
+! 15 thg 3, 2026 https://quechoa8.live
+||quechoa8.live/images/partners/$image
+quechoa8.live##.sm\:gap-1.gap-0\.5.items-center.flex
+quechoa8.live##.relative.h-full.w-full.block > .h-full.w-full.relative
+
