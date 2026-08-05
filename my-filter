@@ -43,13 +43,13 @@ www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
 ||googlevideo.com/videoplayback$xhr,3p,method=get,domain=www.youtube.com
 
 ! 2024-01-25 https://m.facebook.com
-m.facebook.com##._duc._4g34
-m.facebook.com##._du7._7om2 > div._4g34
+!m.facebook.com##._duc._4g34
+!m.facebook.com##._du7._7om2 > div._4g34
 
 ! 2024-01-30 https://m.facebook.com
 ||static.xx.fbcdn.net/rsrc.php/v3/yq/r/Z8IWwViS9gX.png$image
-m.facebook.com##.n.l
-m.facebook.com##.k.j > tbody > tr > td.l
+!m.facebook.com##.n.l
+!m.facebook.com##.k.j > tbody > tr > td.l
 
 ! 2024-02-07 https://vn-z.vn
 vn-z.vn##.__vliadb83-content
@@ -152,4 +152,7 @@ quechoa8.live##.relative.h-full.w-full.block > .h-full.w-full.relative
 ! 20 thg 3, 2026  xin loi thin tu lanh
 voz.vn##.samBannerUnit
 
+! 05 thg 8, 2026 facebook ad
+facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
+m.facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
 
