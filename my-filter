@@ -103,7 +103,7 @@ www.youtube.com##.top-row-alignment
 ! 24 thg 3, 2025 remove chips under video playback
 m.youtube.com##.chips-visible.chips-fixed-positioning
 
-m.facebook.com##.bottom.fixed-container.m
+
 
 ! Hako cleaner
 /^.*?hako.*?$/##.d-md-block.d-none,.d-lg-block.d-none.index-background,.p-4.bg-yellow-50.border-yellow-400.border-l-4,.d-lg-none.index-background,.d-md-none
@@ -152,7 +152,13 @@ quechoa8.live##.relative.h-full.w-full.block > .h-full.w-full.relative
 ! 20 thg 3, 2026  xin loi thin tu lanh
 voz.vn##.samBannerUnit
 
-! 05 thg 8, 2026 facebook ad
+! 5 thg 8, 2026 facebook ad
 facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
 m.facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
+! 5 thg 8, 2026 https://www.facebook.com
+www.facebook.com##.dialog-screen.dark-mode.bg-s1.m
+www.facebook.com##.bottom.fixed-container.m
+m.facebook.com##.dialog-screen.dark-mode.bg-s1.m
+m.facebook.com##.bottom.fixed-container.m
+
 
