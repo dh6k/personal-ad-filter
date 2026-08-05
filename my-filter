@@ -157,8 +157,8 @@ facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has
 m.facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
 ! 5 thg 8, 2026 https://www.facebook.com
 www.facebook.com##.dialog-screen.dark-mode.bg-s1.m
-!www.facebook.com##.bottom.fixed-container.m
+www.facebook.com##.bg-s3.m
 m.facebook.com##.dialog-screen.dark-mode.bg-s1.m
-!m.facebook.com##.bottom.fixed-container.m
+www.facebook.com##.bg-s3.m
 
 
