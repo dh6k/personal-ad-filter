@@ -161,4 +161,5 @@ www.facebook.com##.bg-s3.m
 m.facebook.com##.dialog-screen.dark-mode.bg-s1.m
 www.facebook.com##.bg-s3.m
 
-
+! Sep 2, 2026 https://anotepad.com
+/^.*?anotepad.*?$/###adBlockerModal, .modal-backdrop
