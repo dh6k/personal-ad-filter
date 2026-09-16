@@ -161,5 +161,18 @@ www.facebook.com##.bg-s3.m
 m.facebook.com##.dialog-screen.dark-mode.bg-s1.m
 www.facebook.com##.bg-s3.m
 
+! 16 thg 9, 2026 luottruyen unvip
+! Chặn popup thông báo
+##body:has(a[href*="luottruyen"]) #popup-notification
+
+! Ẩn mục Nạp tiền trong menu (ẩn luôn cả thẻ li để không để lại khoảng trống)
+##body:has(a[href*="luottruyen"]) .main-menu li:has(a[href*="/deposit"])
+
+! Ẩn khung thông báo trong giao diện đọc truyện
+##body:has(a[href*="luottruyen"]) .reading-control > .alert-info
+
+! Ẩn thẻ strong thứ 2 (đã neo nhận diện để tránh lỗi ở web khác)
+##body:has(a[href*="luottruyen"]) strong:nth-of-type(2)
+
 ! Sep 2, 2026 https://anotepad.com
 /^.*?anotepad.*?$/###adBlockerModal, .modal-backdrop
