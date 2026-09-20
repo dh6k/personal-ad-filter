@@ -177,6 +177,7 @@ www.facebook.com##.bg-s3.m
 ##body:has(a[href*="luottruyen"]) div.Module-180.Module.new-comments > .darkBox.box
 ##body:has(a[href*="luottruyen"]) #Login > .tr-wrapper-loginok.loginNull.dangnhap-submenu.dropdown-menu.menu > .normal-menu-header > .normal-sub
 ##body:has(a[href*="luottruyen"]) li.hvr-sweep-to-right:nth-of-type(4)
+##body:has(a[href*="luottruyen"]) .badge-vip
 
 ! 20 thg 9, 2026 luotnovel family
 ##body:has(a[href*="luotnovel"]) li.left.full:nth-of-type(4)
