@@ -169,7 +169,7 @@ www.facebook.com##.bg-s3.m
 ##body:has(a[href*="luottruyen"]) li.left.full:nth-of-type(4)
 ##body:has(a[href*="luottruyen"]) .container > .reading-control1 > div
 ##body:has(a[href*="luottruyen"]) #btn_main_web
-##body:has(a[href*="luottruyen"]) div:nth-of-type(5)
+##body:has(a[href*="luottruyen"]) .reading > div:nth-of-type(5)
 ##body:has(a[href*="luottruyen"]) div:nth-of-type(6)
 ##body:has(a[href*="luottruyen"]) #ctl00_divCenter > .hidden-sm.hidden-xs.mrb10.alert-info.alert
 ##body:has(a[href*="luottruyen"]) #ctl00_divCenter > div:nth-of-type(3)
