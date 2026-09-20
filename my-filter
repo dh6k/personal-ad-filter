@@ -176,3 +176,6 @@ www.facebook.com##.bg-s3.m
 
 ! Sep 2, 2026 https://anotepad.com
 /^.*?anotepad.*?$/###adBlockerModal, .modal-backdrop
+
+! 20 thg 9, 2026 https://voz.vn ad slots
+voz.vn##.voz-adSlot, .voz-adUnit
