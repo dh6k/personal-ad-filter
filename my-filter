@@ -161,21 +161,28 @@ www.facebook.com##.bg-s3.m
 m.facebook.com##.dialog-screen.dark-mode.bg-s1.m
 www.facebook.com##.bg-s3.m
 
-! 16 thg 9, 2026 luottruyen unvip
-! Chặn popup thông báo
+! 20 thg 9, 2026 luottruyen family
 ##body:has(a[href*="luottruyen"]) #popup-notification
-
-! Ẩn mục Nạp tiền trong menu (ẩn luôn cả thẻ li để không để lại khoảng trống)
 ##body:has(a[href*="luottruyen"]) .main-menu li:has(a[href*="/deposit"])
-
-! Ẩn khung thông báo trong giao diện đọc truyện
 ##body:has(a[href*="luottruyen"]) .reading-control > .alert-info
-
-! Ẩn thẻ strong thứ 2 (đã neo nhận diện để tránh lỗi ở web khác)
 ##body:has(a[href*="luottruyen"]) strong:nth-of-type(2)
-
-! Ẩn li.left.full thứ 4
 ##body:has(a[href*="luottruyen"]) li.left.full:nth-of-type(4)
+##body:has(a[href*="luottruyen"]) .container > .reading-control1 > div
+##body:has(a[href*="luottruyen"]) #btn_main_web
+##body:has(a[href*="luottruyen"]) div:nth-of-type(5)
+##body:has(a[href*="luottruyen"]) div:nth-of-type(6)
+##body:has(a[href*="luottruyen"]) #ctl00_divCenter > .hidden-sm.hidden-xs.mrb10.alert-info.alert
+##body:has(a[href*="luottruyen"]) #ctl00_divCenter > div:nth-of-type(3)
+##body:has(a[href*="luottruyen"]) #ctl00_divAltContent2
+##body:has(a[href*="luottruyen"]) div.Module-180.Module.new-comments > .darkBox.box
+##body:has(a[href*="luottruyen"]) #Login > .tr-wrapper-loginok.loginNull.dangnhap-submenu.dropdown-menu.menu > .normal-menu-header > .normal-sub
+##body:has(a[href*="luottruyen"]) li.hvr-sweep-to-right:nth-of-type(4)
+
+! 20 thg 9, 2026 luotnovel family
+##body:has(a[href*="luotnovel"]) li.left.full:nth-of-type(4)
+##body:has(a[href*="luotnovel"]) .container > .reading-control1 > div
+##body:has(a[href*="luotnovel"]) #Login > .tr-wrapper-loginok.loginNull.dangnhap-submenu.dropdown-menu.menu > .normal-menu-header > .normal-sub
+##body:has(a[href*="luotnovel"]) li.hvr-sweep-to-right:nth-of-type(4)
 
 ! Sep 2, 2026 https://anotepad.com
 /^.*?anotepad.*?$/###adBlockerModal, .modal-backdrop
