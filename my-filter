@@ -34,8 +34,8 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer [data-style="SHORTS"]
 
 ! 2023-12-04 https://vlogtruyen5.com
 vlogtruyen5.com##div.container-notification.container span
-voz.vn##.message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ))
-voz.vn##.js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ))
+##body:has(a[href*="voz"]) .message.message--post.js-post.js-inlineModContainer:has(.message-name,.bbCodeBlock-title:has-text(Người ngoài giang hồ))
+##body:has(a[href*="voz"]) .js-inlineModContaine:has(.message-name,.bbCodeBlock-title,.message-attribution:has-text(Người ngoài giang hồ))
 
 www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
@@ -150,7 +150,7 @@ quechoa8.live##.sm\:gap-1.gap-0\.5.items-center.flex
 quechoa8.live##.relative.h-full.w-full.block > .h-full.w-full.relative
 
 ! 20 thg 3, 2026  xin loi thin tu lanh
-voz.vn##.samBannerUnit
+##body:has(a[href*="voz"]) .samBannerUnit
 
 ! 5 thg 8, 2026 facebook ad
 facebook.com##[data-ad-rendering-role="profile_name"]:upward([aria-posinset]:has([data-ad-rendering-role="story_message"]):has([data-ad-rendering-role^="cta-"]))
@@ -188,4 +188,5 @@ www.facebook.com##.bg-s3.m
 /^.*?anotepad.*?$/###adBlockerModal, .modal-backdrop
 
 ! 20 thg 9, 2026 https://voz.vn ad slots
-voz.vn##.voz-adSlot, .voz-adUnit
+##body:has(a[href*="voz"]) .voz-adSlot
+##body:has(a[href*="voz"]) .voz-adUnit
